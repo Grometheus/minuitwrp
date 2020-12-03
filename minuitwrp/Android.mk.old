@@ -106,6 +106,7 @@ ifeq ($(TWRP_EVENT_LOGGING), true)
 LOCAL_CFLAGS += -D_EVENT_LOGGING
 endif
 
+
 ifeq ($(subst ",,$(TARGET_RECOVERY_FORCE_PIXEL_FORMAT)),RGBA_8888)
   $(warning ****************************************************************************)
   $(warning * TARGET_RECOVERY_FORCE_PIXEL_FORMAT := RGBA_8888 not implemented yet      *)
